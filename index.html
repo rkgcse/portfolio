@@ -348,25 +348,7 @@ nav.scrolled{background:rgba(3,8,18,0.88);backdrop-filter:blur(24px);border-bott
 }
 @keyframes playerFadeIn{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
 #music-player:hover{border-color:rgba(0,212,255,.6);box-shadow:0 0 30px rgba(0,212,255,.3),0 8px 30px rgba(0,0,0,.4);}
-#music-btn{
-  width:38px;height:38px;border-radius:50%;
-  background:linear-gradient(135deg,var(--c2),var(--c1));
-  border:none;cursor:none;
-  display:flex;align-items:center;justify-content:center;
-  transition:transform .2s,box-shadow .2s;flex-shrink:0;
-}
-#music-btn:hover{transform:scale(1.1);box-shadow:0 0 15px rgba(0,212,255,.5);}
-#music-icon{color:#fff;font-size:1.1rem;line-height:1;display:block;}
-.music-bars{display:none;align-items:flex-end;gap:2px;height:16px;}
-.music-bars.playing{display:flex;}
-#music-icon.hidden{display:none;}
-.music-bars span{display:block;width:3px;background:#fff;border-radius:2px;animation:barBounce .8s ease-in-out infinite;}
-.music-bars span:nth-child(1){height:6px;animation-delay:0s;}
-.music-bars span:nth-child(2){height:12px;animation-delay:.15s;}
-.music-bars span:nth-child(3){height:9px;animation-delay:.3s;}
-.music-bars span:nth-child(4){height:14px;animation-delay:.1s;}
-@keyframes barBounce{0%,100%{transform:scaleY(1);}50%{transform:scaleY(1.8);}}
-#music-label{font-family:'Rajdhani',sans-serif;font-size:.78rem;letter-spacing:2px;text-transform:uppercase;color:var(--c1);font-weight:600;white-space:nowrap;}*/
+
 
 footer{background:rgba(4,8,18,.85);backdrop-filter:blur(20px);border-top:1px solid rgba(0,229,255,.1);padding:3rem;text-align:center;position:relative;z-index:2;}
 .footer-logo{font-family:'Orbitron',sans-serif;font-size:1.2rem;font-weight:900;background:linear-gradient(135deg,var(--c1),var(--c2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;letter-spacing:4px;margin-bottom:1rem;display:block;}
@@ -736,18 +718,9 @@ footer p{color:var(--t2);font-size:.82rem;letter-spacing:.5px;}
 <canvas id="bg-canvas"></canvas>
 
 <!-- MUSIC PLAYER -->
-<div id="music-player">
-  <button id="music-btn" onclick="toggleMusic()" title="Toggle ambient music">
-    <span id="music-icon">♪</span>
-    <div class="music-bars" id="music-bars">
-      <span></span><span></span><span></span><span></span>
-    </div>
-  </button>
-  <div id="music-label">Ambient</div>
-</div>
 
 <nav id="main-nav">
-  <div class="nav-logo">RAUSHANAPPS</div>
+  <div class="nav-logo">RAUSHAN KUMAR </div>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#education">Education</a></li>
@@ -768,13 +741,13 @@ footer p{color:var(--t2);font-size:.82rem;letter-spacing:.5px;}
     <div class="hero-left">
       <h1 class="hero-name" data-text="Raushan Kumar" id="heroName">Raushan Kumar</h1>
       <div class="hero-handle">@Raushanapps</div>
-      <p class="hero-desc">A multi-faceted technology expert, national athlete, writer & philosopher — embodying dedication, mentorship, and continuous growth.</p>
+      <p class="hero-desc">Raushan Kumar is a Computer Science student and full-stack developer passionate about building scalable digital solutions. A multi-faceted technology enthusiast, national athlete, writer, and philosopher, he believes in dedication, mentorship, and continuous growth.</p>
       <div class="typewriter-wrap" id="typewriter"></div>
       <div class="hero-tags">
         <span class="tag" style="cursor:pointer;">Innovator</span>
-        <span class="tag" style="cursor:pointer;">Mentor</span>
+        <span class="tag" style="cursor:pointer;">Student</span>
         <span class="tag" style="cursor:pointer;">Leader</span>
-        <span class="tag" style="cursor:pointer;">Developer</span>
+        <span class="tag" style="cursor:pointer;">National BasketBall Player</span>
         <span class="tag" style="cursor:pointer;">Athlete</span>
       </div>
       <div class="hero-btns">
@@ -936,10 +909,8 @@ footer p{color:var(--t2);font-size:.82rem;letter-spacing:.5px;}
       <div class="mystery-card reveal stagger-1"><div class="mystery-title">The Digit '28'</div><div class="mystery-desc">He often uses the digit '28'. What is its special significance?</div></div>
       <div class="mystery-card reveal stagger-2"><div class="mystery-title">Self-Reliance</div><div class="mystery-desc">He avoids taking help if he can do it himself. Why is this important to him?</div></div>
       <div class="mystery-card reveal stagger-3"><div class="mystery-title">Caring Nature</div><div class="mystery-desc">He cares deeply for loved ones, but receiving care from him is difficult. Why?</div></div>
-      <div class="mystery-card reveal stagger-4"><div class="mystery-title">Hair Preference</div><div class="mystery-desc">He prefers short hair over long hair. What is the reason for this choice?</div></div>
       <div class="mystery-card reveal stagger-5"><div class="mystery-title">Erratic Behavior</div><div class="mystery-desc">He is described as very erratic. How does this manifest?</div></div>
-      <div class="mystery-card reveal stagger-6"><div class="mystery-title">Unique Snack</div><div class="mystery-desc">He loved a heated mix of butter, Horlicks, Bornvita, and cashew. Does he still?</div></div>
-    </div>
+      <div
     <div class="quotes-row">
       <div class="quote-card reveal stagger-1"><span class="q-mark">"</span><p class="q-text">I would never like to be privileged by the name of my caste, rather I would love to be privileged by the name of my work and culture.</p></div>
       <div class="quote-card reveal stagger-3"><span class="q-mark">"</span><p class="q-text">I don't care of everyone but whose I take care of are my life and I can go to any extent for them.</p></div>
