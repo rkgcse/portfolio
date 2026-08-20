@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://raushan9999.vercel.app/sitemap.xml
